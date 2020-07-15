@@ -34,4 +34,4 @@ jobs:
       run: npm install -g surge  # surge install kia jay ga
       
     - name: Run surge
-      run: surge ./ bootcampeEnglish.surge.sh --token ${{secrets.SECRET2}}
+      run: surge ./ bootcampeEnglishclass2.surge.sh --token ${{secrets.SECRET2}}
