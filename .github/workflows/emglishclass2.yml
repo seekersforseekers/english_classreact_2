@@ -1,3 +1,5 @@
+
+  
 # This is a basic workflow to help you get started with Actions
 
 name: React-1stapp-surge
@@ -37,5 +39,4 @@ jobs:
       run: npm i -g surge
       
     - name: Upload site
-    
-      run: surge ./ bootcampeEnglishclass2fakhra.surge.sh --token ${{secrets.SECRET2}}
+      run: surge ./build reactclass-english-2.surge.sh/ --token ${{secrets.SECRET2}}
