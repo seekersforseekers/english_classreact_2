@@ -4,6 +4,17 @@
 .new {
   text-align: left;
 }
+.lit{
+  height: 100vh;
+}
+.On{
+  background-color:yellow;
+
+}
+.off{
+  background-color:grey;
+ 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
